@@ -1,167 +1,216 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Remains fr</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			* {box-sizing: border-box;}
+			body {font-family: Verdana, sans-serif;}
+			.mySlides {display: none;}
+			img {vertical-align: middle;}
+			
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			}
+			
+			/* Caption text */
+			.text {
+			  color: #f2f2f2;
+			  font-size: 15px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  bottom: 8px;
+			  width: 100%;
+			  text-align: center;
+			}
+			
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+			
+			/* The dots/bullets/indicators */
+			.dot {
+			  height: 15px;
+			  width: 15px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+			
+			.active {
+			  background-color: #717171;
+			}
+			
+			/* Fading animation */
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+			
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+			
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+			
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			  .text {font-size: 11px}
+			}
+			</style>
+	</head>
+	<body class="is-preload">
 
-    <title>Portfolio - Détails</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+		<!-- Header -->
+			<div id="header">
 
-    <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon" />
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+				<div class="top">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+		
 
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/boxicons/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/swiper/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Accueil</span></a></li>
+								<li><a href="Cata-carte-details.html" id="top-link"><span class="icon solid fa-home">Catacarte</span></a></li>
+								<li><a href="Remains-trad-fr-details.html" id="cv-link"><span class="icon solid fa-th">Remains-trad-fr</span></a></li>
+								<li><a href="GeoWorld-details.html" id="projets-link"><span class="icon solid fa-th">Géoworld</span></a></li>
+								<li><a href="Vetux-line-details.html" id="about-link"><span class="icon solid fa-user">Vetuxline</span></a></li>
+								<li><a href="SushiFast-details.html" id="about-link"><span class="icon solid fa-user">Sushifast</span></a></li>
+		
+							</ul>
+						</nav>
 
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet" />
+				</div>
 
-    <!-- =======================================================
-  * Template Name: iPortfolio - v3.5.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  </head>
+				
 
-  <body>
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>GeoWorld</h2>
-          <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li>GeoWorld</li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <!-- End Breadcrumbs -->
+			</div>
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-10" style="margin: 3em auto 2em auto">
-            <div class="portfolio-details-slider swiper">
-              <div
-                class="swiper-wrapper align-items-center"
-                style="height: 30em"
-              >
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_0.png" alt="" />
-                </div>
+		<!-- Main -->
+			<div id="main">
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_1.png" alt="" />
-                </div>
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_2.png" alt="" />
-                </div>
+							<header>
+								<h2>Remains-traduction-fr</h2>
+								
+							</header>
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_3.png" alt="" />
-                </div>
+				
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_4.png" alt="" />
-                </div>
+						
+						
+							<body>
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/GeoWorld_5.png" alt="" />
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+								
+								
+								<div class="slideshow-container">
+								
+								<div class="mySlides fade">
+								  <div class="numbertext">1 / 3</div>
+								  <img src="images/remains-menu.png" style="width:100%">
+								  <div class="text">Caption Text</div>
+								</div>
+								
+								<div class="mySlides fade">
+								  <div class="numbertext">2 / 3</div>
+								  <img src="images/av.jpg" style="width:100%">
+								  <div class="text">Caption Two</div>
+								</div>
+								
+								<div class="mySlides fade">
+								  <div class="numbertext">3 / 3</div>
+								  <img src="images/img_mountains_wide.jpg" style="width:100%">
+								  <div class="text">Caption Three</div>
+								</div>
+								
+								</div>
+								<br>
+								
+								<p>
+									Le projet en lui même est la traduction d'un jeu depuis un fichier xml. </br>
+									Mais un site vitrine a été créer pour télécharger et expliquer comment installer et présenter la traduction. il s'agit du site de cette page
+								</p>
 
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4">
-            <div class="portfolio-info" style="margin: 3em 0; height: 80%">
-              <h3>GeoWorld</h3>
-              <ul>
-                <li><strong>Type</strong>: Application Web</li>
-                <li><strong>Techno</strong>: PHP - MySQL</li>
-                <li><strong>Projet</strong>: Scolaire</li>
-                <li><strong>Date</strong>: Avril 2020</li>
-                <li>
-                  <strong>GitHub</strong>:
-                  <a
-                    href="https://github.com/BenDejardin/ProjetDeGroupe-GeoWorld"
-                    target="_blank"
-                    >Lien du projet</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="portfolio-info" style="margin: 3em 0; height: 80%">
-              <h3>Description du projet GeoWorld</h3>
-              <p>
-                Cette application est destinée à des professeurs d'histoire et
-                de géographie.<br />
+								<div style="text-align:center">
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+								</div>
+								
+								<script>
+								var slideIndex = 0;
+								showSlides();
+								
+								function showSlides() {
+								  var i;
+								  var slides = document.getElementsByClassName("mySlides");
+								  var dots = document.getElementsByClassName("dot");
+								  for (i = 0; i < slides.length; i++) {
+									slides[i].style.display = "none";  
+								  }
+								  slideIndex++;
+								  if (slideIndex > slides.length) {slideIndex = 1}    
+								  for (i = 0; i < dots.length; i++) {
+									dots[i].className = dots[i].className.replace(" active", "");
+								  }
+								  slides[slideIndex-1].style.display = "block";  
+								  dots[slideIndex-1].className += " active";
+								  setTimeout(showSlides, 2000); // Change image every 2 seconds
+								}
+								</script>
+								
+								</body>
+						
+						
+						
+						
+						</div>
+					</section>
+					
+					
+					
+					
+				
 
-                Elle permet aux professeurs, comme aux élèves, de consulter les
-                données géopolitiques et économiques de la planète. Ces données
-                ont été communiquées par l'institut Official Statistics of
-                Finland (2006) mais peuvent être actualisé par les professeurs.
-                <br />
-                <br />
+			</div>
 
-                Afin de réaliser ce projet nous avons travaillé en équipe de 3.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+		
 
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/aos/aos.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-    <script src="../assets/vendor/purecounter/purecounter.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/typed.js/typed.min.js"></script>
-    <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
-  </body>
+	</body>
 </html>
